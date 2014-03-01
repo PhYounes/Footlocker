@@ -1,4 +1,4 @@
-/**
+/** nnn
 * @name happy
 * @desc returns wether the given number is a happy number. Happy ness is defined at (url: )
 * @param n - any positive integer
@@ -25,7 +25,7 @@ function happy(n, max){
 // the function 'window.onload' will be called when the page is ready by the browser
 // so the following code is telling the window what to do when it's ready... kinda...
 window.onload=function(){
-
+  console.log("window assets is ready");
   // how many sequence do we want to try
   // for each happyTest until we say 'false'
   var retryHapiness = 1000;
@@ -44,9 +44,9 @@ window.onload=function(){
     // add a "div" element with class "green"
     // in out css wi well define the class green as having a specific style ( green text )
     if(isNumHappy) {
-      output.innerHTML +=  "<div class='green'>" + currentNum + " is happy.<div>";
+      output.innerHTML +=  "<div class='happy'>" + currentNum + " is happy.<div>";
     } else {
-      output.innerHTML +=  "<div class='red'>" + currentNum + " is unhappy.<div>";
+      output.innerHTML +=  "<div class='unhappy'>" + currentNum + " is unhappy.<div>";
     }
   }
 

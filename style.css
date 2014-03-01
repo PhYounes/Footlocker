@@ -3,5 +3,14 @@
  we are saying, when you find an element with class == "green", 
  make the color: green
  */
-.green { color: green;}
-.red { color: red;}
+.happy { 
+    color: blue;
+    background:lightblue;
+}
+.unhappy {
+    color: red;
+}
+
+div {
+    border: 1px solid purple;
+}
